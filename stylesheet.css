@@ -101,7 +101,7 @@ aside > ul{
 	flex: 0.7;
 }
 
-input[type="text"]{
+input[type="text"], input[type="password"]{
 	margin: 0.4em 0;
 	font-size: 1rem;
 	border-radius: 4px;
@@ -148,8 +148,9 @@ input[type="text"]{
 }
 
 .checkBoxInner{
-	border: 1px solid #CFD2CF;
-	background-color: #D6DBD6;
+	border: 2px solid #CFD2CF;
+	background-color: #FCF3CF;
+	padding: 4px 0;
 	/*padding: 1em;*/
 }
 
